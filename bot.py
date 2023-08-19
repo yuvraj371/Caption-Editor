@@ -11,7 +11,7 @@ CAPTION = os.environ.get("CAPTION")
 bot = Client(session_name="caption-editor",
              api_id=int(os.environ.get("API_ID")),
              api_hash=os.environ.get("API_HASH"),
-             bot_token=int os.environ.get("BOT_TOKEN"))
+             bot_token=os.environ.get("BOT_TOKEN"))
 
 #experiment #fail
 async def get_size(size):
